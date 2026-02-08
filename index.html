@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Tech Bazaar | Mobile & Electronics</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-bolt"></i>Tech Bazaar
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cart-indicator" href="#">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cart-count">3</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-primary" href="#products">Shop Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-bg"></div>
+
+        <div class="floating-element">
+            <i class="fas fa-mobile-alt fa-3x" style="color: rgba(37, 99, 235, 0.3);"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-headphones fa-3x" style="color: rgba(124, 58, 237, 0.3);"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-laptop fa-3x" style="color: rgba(236, 72, 153, 0.3);"></i>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="animate__animated animate__fadeInUp">Next-Gen Tech @ Your Fingertips</h1>
+                        <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s">
+                            Discover India's largest collection of premium smartphones, laptops, gadgets, and
+                            electronics with exclusive deals and lightning-fast delivery.
+                        </p>
+
+                        <div class="hero-stats animate__animated animate__fadeInUp animate__delay-2s">
+                            <div class="stat-item">
+                                <span class="stat-value">50K+</span>
+                                <span class="stat-label">Products</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">2M+</span>
+                                <span class="stat-label">Customers</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">500+</span>
+                                <span class="stat-label">Brands</span>
+                            </div>
+                        </div>
+
+                        <div class="animate__animated animate__fadeInUp animate__delay-3s">
+                            <a href="#products" class="btn btn-primary me-3 mb-3">Explore Products</a>
+                            <a href="#categories" class="btn btn-outline-light mb-3">View Categories</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-image-container animate__animated animate__fadeIn animate__delay-1s">
+                        <div class="hero-image">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="Premium Tech Products">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-subtitle">Curated selection of the latest and most innovative tech products</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+                                alt="Quantum X Pro Smartphone">
+                            <span class="product-badge">Bestseller</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Quantum X Pro</h3>
+                            <p class="product-description">6.8" AMOLED, 256GB, 5G with 200MP Camera</p>
+
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-value">4.7 (2.1k)</span>
+                            </div>
+
+                            <div class="product-price">
+                                <span class="currency">₹</span>89,999
+                            </div>
+
+                            <button class="btn btn-primary w-100 add-to-cart">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                                alt="NexusBook Pro Laptop">
+                            <span class="product-badge">New</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">NexusBook Pro</h3>
+                            <p class="product-description">16" OLED, 32GB RAM, 2TB SSD, RTX 4070</p>
+
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-value">4.3 (1.5k)</span>
+                            </div>
+
+                            <div class="product-price">
+                                <span class="currency">₹</span>1,49,999
+                            </div>
+
+                            <button class="btn btn-primary w-100 add-to-cart">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="AudioWave Max Headphones">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AudioWave Max</h3>
+                            <p class="product-description">Noise Cancelling Wireless Headphones with 60hr battery</p>
+
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-value">5.0 (3.2k)</span>
+                            </div>
+
+                            <div class="product-price">
+                                <span class="currency">₹</span>24,999
+                            </div>
+
+                            <button class="btn btn-primary w-100 add-to-cart">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="ChronoFit 3 Smartwatch">
+                            <span class="product-badge">Sale</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">ChronoFit 3</h3>
+                            <p class="product-description">Advanced Fitness Smartwatch with ECG & SpO2</p>
+
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-value">4.5 (1.8k)</span>
+                            </div>
+
+                            <div class="product-price">
+                                <span class="currency">₹</span>19,999
+                                <span class="text-muted text-decoration-line-through ms-2">₹24,999</span>
+                            </div>
+
+                            <button class="btn btn-primary w-100 add-to-cart">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section-padding bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Shop by Category</h2>
+                <p class="section-subtitle">Browse our extensive collection of tech categories</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Category 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Smartphones">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Smartphones</h3>
+                            <p>Latest models from Apple, Samsung, OnePlus & more</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                            alt="Laptops">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Laptops & PCs</h3>
+                            <p>Powerful machines for work, gaming & creativity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Audio">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Audio Devices</h3>
+                            <p>Headphones, speakers, soundbars & more</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Wearables">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Wearables</h3>
+                            <p>Smartwatches, fitness trackers & VR headsets</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1442&q=80"
+                            alt="Gaming">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Gaming</h3>
+                            <p>Consoles, accessories, games & gaming PCs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1501&q=80"
+                            alt="Accessories">
+                        <div class="category-overlay">
+                            <h3 class="category-title">Accessories</h3>
+                            <p>Chargers, cases, cables, docks & more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose TechBazaar</h2>
+                <p class="section-subtitle">Experience the premium difference with our exclusive services</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3 class="feature-title">Free & Fast Delivery</h3>
+                        <p class="feature-description">Free delivery on all orders above ₹999. Same-day delivery in 15+
+                            cities across India.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">2-Year Warranty</h3>
+                        <p class="feature-description">All products come with extended 2-year warranty and easy claim
+                            process.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-undo-alt"></i>
+                        </div>
+                        <h3 class="feature-title">30-Day Returns</h3>
+                        <p class="feature-description">Hassle-free returns within 30 days of purchase with no questions
+                            asked.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="feature-title">24/7 Premium Support</h3>
+                        <p class="feature-description">Dedicated premium support team available round the clock for
+                            assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <a href="#" class="footer-brand">TechBazaar</a>
+                    <p class="footer-description">India's premier destination for premium mobile devices and
+                        electronics. Experience innovation redefined.</p>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <h4 class="footer-heading">Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Smartphones</a></li>
+                        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Laptops</a></li>
+                        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Audio</a></li>
+                        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Wearables</a></li>
+                        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Sustainability</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Tech Bazaar Pune, MH, IN 411048</a>
+                        </li>
+                        <li><a href="tel:+911800123456"><i class="fas fa-phone"></i> 1800-123-456 (Toll-Free)</a></li>
+                        <li><a href="mailto:support@techbazaar.in"><i class="fas fa-envelope"></i>
+                                support@techbazaar.in</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> Mon-Sun: 8:00 AM - 11:00 PM</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 TechBazaar. All rights reserved. | Made with <i class="fas fa-heart text-danger"></i> in
+                    India</p>
+                <p class="mt-2">Prices include GST. Terms & Conditions apply.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            const backToTop = document.querySelector('.back-to-top');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Show/hide back to top button
+            if (window.scrollY > 300) {
+                backToTop.classList.add('active');
+            } else {
+                backToTop.classList.remove('active');
+            }
+
+            // Update active nav link based on scroll position
+            updateActiveNavLink();
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+
+                    // Close mobile navbar after click
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        const navbarToggler = document.querySelector('.navbar-toggler');
+                        navbarToggler.click();
+                    }
+                }
+            });
+        });
+
+        // Back to top functionality
+        document.querySelector('.back-to-top').addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add to cart functionality
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function () {
+                const productCard = this.closest('.product-card');
+                const productName = productCard.querySelector('.product-title').textContent;
+                const productPrice = productCard.querySelector('.product-price').textContent;
+                const cartCount = document.querySelector('.cart-count');
+
+                // Update cart count
+                let currentCount = parseInt(cartCount.textContent);
+                cartCount.textContent = currentCount + 1;
+
+                // Add animation to cart icon
+                const cartIcon = document.querySelector('.cart-indicator');
+                cartIcon.classList.add('animate__animated', 'animate__pulse');
+
+                // Remove animation class after animation completes
+                setTimeout(() => {
+                    cartIcon.classList.remove('animate__animated', 'animate__pulse');
+                }, 1000);
+
+                // Show notification
+                const notification = document.createElement('div');
+                notification.className = 'position-fixed top-0 end-0 p-4';
+                notification.style.zIndex = '9999';
+                notification.innerHTML = `
+                    <div class="alert alert-success d-flex align-items-center shadow-lg" role="alert" style="background: linear-gradient(135deg, #10b981, #059669); border: none; color: white; min-width: 300px;">
+                        <i class="fas fa-check-circle fa-2x me-3"></i>
+                        <div>
+                            <h5 class="mb-1">Added to Cart!</h5>
+                            <p class="mb-0">${productName} - ${productPrice}</p>
+                        </div>
+                    </div>
+                `;
+
+                document.body.appendChild(notification);
+
+                // Remove notification after 3 seconds
+                setTimeout(() => {
+                    notification.remove();
+                }, 3000);
+            });
+        });
+
+        // Update active nav link based on scroll position
+        function updateActiveNavLink() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                const sectionHeight = section.clientHeight;
+
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Initialize animations on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.product-card, .category-card, .feature-card');
+
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+
+                if (elementPosition < screenPosition) {
+                    element.classList.add('animate__animated', 'animate__fadeInUp');
+                }
+            });
+        }
+
+        // Run animation on load and scroll
+        window.addEventListener('load', animateOnScroll);
+        window.addEventListener('scroll', animateOnScroll);
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', function () {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            const heroBg = document.querySelector('.hero-bg');
+
+            if (heroBg) {
+                heroBg.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+
+            if (hero) {
+                const heroContent = hero.querySelector('.hero-content');
+                heroContent.style.transform = `translateY(${scrolled * 0.2}px)`;
+            }
+        });
+
+        // Add loading animation to page
+        window.addEventListener('load', function () {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease';
+
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+
+</html>
